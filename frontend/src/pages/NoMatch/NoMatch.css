@@ -1,0 +1,59 @@
+.errorPage-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.errorpage-img img {
+    height: 40vh;
+}
+
+.errorPage-container {
+    text-align: center;
+}
+
+.errorPage-content h1 {
+    color: red;
+    font-weight: 600;
+    font-family: "RocknRoll One", sans-serif;
+}
+
+.errorPage-content h5 {
+    color: rgba(0, 0, 0, 0.733);
+    line-height: 50px;
+}
+
+.errorPage-content p {
+    line-height: 10px;
+    color: rgb(6, 20, 16);
+}
+
+.errorPage-content p a {
+    padding: 5px 10px;
+}
+
+@media screen and (max-width:500px) {
+    .errorpage-img img {
+        height: 30vh;
+    }
+
+    .errorPage-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .errorPage-content h5 {
+       font-size: 0.9rem;
+        line-height: 40px;
+    }
+
+    .errorPage-content p {
+        font-size: 0.8rem;
+    }
+
+    .errorPage-content p a {
+        padding: 5px 10px;
+    }
+}

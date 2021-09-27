@@ -1,0 +1,299 @@
+.search-page {
+  height: 300px;
+  overflow: hidden;
+  background: linear-gradient(
+      to bottom,
+      rgba(10, 8, 9, 0.493),
+      rgba(26, 24, 26, 0.87)
+    ),
+    url("../../assets/image/header-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.search-page h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-family: "RocknRoll One", sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.search-box h1 {
+  color: #000;
+  text-align: center;
+}
+
+.search-box {
+  padding: 5rem 0;
+}
+
+.search-box img {
+  width: 25rem;
+  height: auto;
+}
+
+@media (max-width: 1000px) {
+  .search-box img {
+    width: 20rem;
+    height: auto;
+  }
+}
+
+.tutor-card {
+  height: 150px;
+  width: auto;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+
+.tutor-card-img img {
+  height: 150px;
+  width: auto;
+}
+
+/* main-searcg */
+.mainsearch-header {
+  height: 30vh;
+  overflow: hidden;
+  background: linear-gradient(
+      to bottom,
+      rgba(10, 8, 9, 0.493),
+      rgba(26, 24, 26, 0.87)
+    ),
+    url("../../assets/image/header-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainsearch-header-container {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.mainsearch-content {
+  padding: 30px 0;
+}
+
+.searchpage-card {
+  margin-bottom: 20px;
+  height: 220px;
+  width: 500px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.searchpage-card img {
+  height: 120px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.searchpage-side-content {
+  margin: 20px 5px;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.searchpage-side-content .searchpage-name {
+  padding: 5px 0;
+  color: rgb(4, 26, 44);
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 5px;
+  font-family: "RocknRoll One", sans-serif;
+  text-transform: capitalize;
+}
+
+.searchpage-side-content .searchpage-tagline {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.searchpage-side-content .searchpage-price {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "RocknRoll One", sans-serif;
+}
+
+.searchpage-side-content .searchpage-price span {
+  font-weight: normal;
+}
+
+.searchpage-side-content .searchpage-bio {
+  font-size: 0.8rem;
+}
+
+.searchpage-hrs-button {
+  outline: none;
+  border: none;
+  background-color: #ccc;
+  color: rgb(4, 26, 44);
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 10px;
+}
+
+.searchpage-profile-button {
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+  border: 1px solid rgb(4, 26, 44);
+  border-radius: 10px;
+  background: #fff;
+  padding: 5px 10px;
+}
+
+.searchpage-profile-button1 {
+  position: absolute;
+  bottom: 70px;
+  right: 10px;
+  border: 1px solid rgb(4, 26, 44);
+  background-color: rgba(4, 26, 44, 0.89);
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px 8px;
+}
+
+.searchpage-profile-button:hover {
+  background-color: rgb(4, 26, 44);
+  color: #fff;
+}
+
+.searchpage-profile-button1:hover {
+  background-color: rgb(4, 26, 44);
+}
+
+@media screen and (max-width: 650px) {
+  .mainsearch-content {
+    padding: 15px 0;
+  }
+
+  .searchpage-container-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .searchpage-card {
+    width: 300px;
+    height: 520px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .searchpage-card img {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+    border-radius: 0;
+  }
+
+  .searchpage-side-content {
+    margin: 20px 5px;
+    position: relative;
+  }
+
+  .searchpage-side-content .searchpage-name {
+    padding: 5px 0;
+    color: rgb(4, 26, 44);
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "RocknRoll One", sans-serif;
+  }
+
+  .searchpage-side-content .searchpage-tagline {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 2px;
+  }
+
+  .searchpage-side-content .searchpage-price {
+    position: absolute;
+    top: -320px;
+    right: 0px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-family: "RocknRoll One", sans-serif;
+    background-color: pink;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+  .searchpage-side-content .searchpage-bio {
+    font-size: 0.7rem;
+  }
+
+  .searchpage-profile-button {
+    text-align: center;
+    margin-top: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    border: 1px solid rgb(4, 26, 44);
+    border-radius: 0px;
+    background: rgb(4, 26, 44);
+    color: #fff;
+    width: 100%;
+    margin-left: -5px;
+    margin-bottom: -20px;
+    padding: 10px;
+  }
+
+  .searchpage-profile-button:hover {
+    background-color: rgb(4, 26, 44);
+    color: #fff;
+  }
+
+  .searchpage-profile-button1 {
+    position: absolute;
+    bottom: 40px;
+    outline: none;
+    border: none;
+    background-color: #ccc;
+    color: rgb(4, 26, 44);
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 10px;
+  }
+
+  .searchpage-hrs-button {
+    position: absolute;
+    bottom: 40px;
+    outline: none;
+    border: none;
+    background-color: #ccc;
+    color: rgb(4, 26, 44);
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 10px;
+  }
+}
+
+.nodatafound-searchpage {
+  color: rgb(201, 56, 56);
+  text-align: center;
+  font-family: "RocknRoll One", sans-serif;
+}

@@ -1,0 +1,387 @@
+[
+  {
+    "id": "0",
+    "district": "Choose district",
+    "value": "all"
+  },
+  {
+    "id": "1",
+    "district": "Achham",
+    "value": "achham"
+  },
+  {
+    "id": "2",
+    "district": "Arghakhanchi",
+    "value": "arghakhanchi"
+  },
+  {
+    "id": "3",
+    "district": "Baglung",
+    "value": "baglung"
+  },
+  {
+    "id": "4",
+    "district": "Baitadi",
+    "value": "baitadi"
+  },
+  {
+    "id": "5",
+    "district": "Bajhang",
+    "value": "bajhang"
+  },
+  {
+    "id": "6",
+    "district": "Bajura",
+    "value": "bajura"
+  },
+  {
+    "id": "7",
+    "district": "Banke",
+    "value": "banke"
+  },
+  {
+    "id": "8",
+    "district": "Bara",
+    "value": "bara"
+  },
+  {
+    "id": "9",
+    "district": "Bardiya",
+    "value": "bardiya"
+  },
+  {
+    "id": "10",
+    "district": "Bhaktapur",
+    "value": "bhaktapur"
+  },
+  {
+    "id": "11",
+    "district": "Bhojpur",
+    "value": "Bhojpur"
+  },
+  {
+    "id": "12",
+    "district": "Chitwon",
+    "value": "chitwon"
+  },
+  {
+    "id": "13",
+    "district": "Dadeldhura",
+    "value": "dadeldhura"
+  },
+  {
+    "id": "14",
+    "district": "Dailekh",
+    "value": "dailekh"
+  },
+  {
+    "id": "15",
+    "district": "Dang",
+    "value": "Dang"
+  },
+  {
+    "id": "16",
+    "district": "Darchula",
+    "value": "darchula"
+  },
+  {
+    "id": "17",
+    "district": "Dhading",
+    "value": "dhading"
+  },
+  {
+    "id": "18",
+    "district": "Dhankuta",
+    "value": "dhankuta"
+  },
+  {
+    "id": "19",
+    "district": "Dhanusha",
+    "value": "dhanusha"
+  },
+  {
+    "id": "20",
+    "district": "Dolakha",
+    "value": "dolakha"
+  },
+  {
+    "id": "21",
+    "district": "Doti",
+    "value": "doti"
+  },
+  {
+    "id": "22",
+    "district": "Gorkha",
+    "value": "gorkha"
+  },
+  {
+    "id": "23",
+    "district": "Gulmi",
+    "value": "gulmi"
+  },
+  {
+    "id": "24",
+    "district": "Humla",
+    "value": "humla"
+  },
+  {
+    "id": "25",
+    "district": "Ilam",
+    "value": "ilam"
+  },
+  {
+    "id": "26",
+    "district": "Jajarkot",
+    "value": "jajarkot"
+  },
+  {
+    "id": "27",
+    "district": "Jhapa",
+    "value": "jhapa"
+  },
+  {
+    "id": "28",
+    "district": "Jumla",
+    "value": "jumla"
+  },
+  {
+    "id": "29",
+    "district": "Kailali",
+    "value": "kailali"
+  },
+  {
+    "id": "30",
+    "district": "Kalikot",
+    "value": "kalikot"
+  },
+  {
+    "id": "31",
+    "district": "Kanchanpur",
+    "value": "kanchanpur"
+  },
+  {
+    "id": "32",
+    "district": "Kapilvastu",
+    "value": "kapilvastu"
+  },
+  {
+    "id": "33",
+    "district": "Kaski",
+    "value": "kaski"
+  },
+  {
+    "id": "34",
+    "district": "Kathmandu",
+    "value": "kathmandu"
+  },
+  {
+    "id": "35",
+    "district": "Kavre",
+    "value": "kavre"
+  },
+  {
+    "id": "36",
+    "district": "Khotang",
+    "value": "khotang"
+  },
+  {
+    "id": "37",
+    "district": "Lalitpur",
+    "value": "lalitpur"
+  },
+  {
+    "id": "38",
+    "district": "Lamjung",
+    "value": "lamjung"
+  },
+  {
+    "id": "39",
+    "district": "Mahottari",
+    "value": "mahottari"
+  },
+  {
+    "id": "40",
+    "district": "Makwanpur",
+    "value": "makwanpur"
+  },
+  {
+    "id": "41",
+    "district": "Manang",
+    "value": "manang"
+  },
+  {
+    "id": "42",
+    "district": "Morang",
+    "value": "morang"
+  },
+  {
+    "id": "43",
+    "district": "Mugu",
+    "value": "mugu"
+  },
+  {
+    "id": "44",
+    "district": "Mustang",
+    "value": "mustang"
+  },
+  {
+    "id": "45",
+    "district": "Myagdi",
+    "value": "myagdi"
+  },
+  {
+    "id": "46",
+    "district": "Nawalpur",
+    "value": "nawalpur"
+  },
+  {
+    "id": "47",
+    "district": "Nuwakot",
+    "value": "nuwakot"
+  },
+  {
+    "id": "48",
+    "district": "Okhaldhunga",
+    "value": "okhaldhunga"
+  },
+  {
+    "id": "49",
+    "district": "Palpa",
+    "value": "palpa"
+  },
+  {
+    "id": "50",
+    "district": "Panchthar",
+    "value": "panchthar"
+  },
+  {
+    "id": "51",
+    "district": "Parasi",
+    "value": "parasi"
+  },
+  {
+    "id": "52",
+    "district": "Parbat",
+    "value": "parbat"
+  },
+  {
+    "id": "53",
+    "district": "Parsa",
+    "value": "parsa"
+  },
+  {
+    "id": "54",
+    "district": "Pyuthan",
+    "value": "pyuthan"
+  },
+  {
+    "id": "55",
+    "district": "Ramechhap",
+    "value": "ramechhap"
+  },
+  {
+    "id": "56",
+    "district": "Rasuwa",
+    "value": "rasuwa"
+  },
+  {
+    "id": "57",
+    "district": "Rautahat",
+    "value": "rautahat"
+  },
+  {
+    "id": "58",
+    "district": "Rolpa",
+    "value": "rolpa"
+  },
+  {
+    "id": "59",
+    "district": "Rukum (East)",
+    "value": "rukum-east"
+  },
+  {
+    "id": "60",
+    "district": "Rukum (West)",
+    "value": "rukum-west"
+  },
+  {
+    "id": "61",
+    "district": "Rupendehi",
+    "value": "rupendehi"
+  },
+  {
+    "id": "62",
+    "district": "Salyan",
+    "value": "salyan"
+  },
+  {
+    "id": "63",
+    "district": "Sankhuwashabha",
+    "value": "sankhuwashabha"
+  },
+  {
+    "id": "64",
+    "district": "Saptari",
+    "value": "saptari"
+  },
+  {
+    "id": "65",
+    "district": "Sarlahi",
+    "value": "sarlahi"
+  },
+  {
+    "id": "66",
+    "district": "Sindhuli",
+    "value": "sindhuli"
+  },
+  {
+    "id": "67",
+    "district": "Sindhupalchowk",
+    "value": "sindhupalchowk"
+  },
+  {
+    "id": "68",
+    "district": "Siraha",
+    "value": "siraha"
+  },
+  {
+    "id": "69",
+    "district": "Solukhumbu",
+    "value": "solukhumbu"
+  },
+  {
+    "id": "70",
+    "district": "Sunsari",
+    "value": "sunsari"
+  },
+  {
+    "id": "71",
+    "district": "Surkhet",
+    "value": "surkhet"
+  },
+  {
+    "id": "72",
+    "district": "Syangja",
+    "value": "syangja"
+  },
+  {
+    "id": "73",
+    "district": "Tanahun",
+    "value": "tanahun"
+  },
+  {
+    "id": "74",
+    "district": "Taplejung",
+    "value": "taplejung"
+  },
+  {
+    "id": "75",
+    "district": "Tehrathum",
+    "value": "tehrathum"
+  },
+  {
+    "id": "76",
+    "district": "Udayapur",
+    "value": "udayapur"
+  }
+]

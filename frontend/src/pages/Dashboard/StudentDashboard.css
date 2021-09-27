@@ -1,0 +1,16 @@
+.student-dashboard {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.dash-nav {
+  padding: 0;
+  margin: 0;
+  background: #070706d2;
+}
+
+.student-dash-container-left {
+  height: 88vh;
+  background: red;
+}

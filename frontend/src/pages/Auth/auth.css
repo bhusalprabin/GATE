@@ -1,0 +1,326 @@
+.signinStudent {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #c9d6ff;
+  background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff);
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signinStudent-container {
+  height: 70vh;
+  width: 50rem;
+  overflow: hidden;
+  border: 1px solid rebeccapurple;
+}
+
+.signinStudent-container-left {
+  padding: 5rem 0;
+  height: 70vh;
+  background: #cc2b5e;
+  background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
+  background: linear-gradient(to right, #753a88, #cc2b5e);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.signup-content p {
+  font-size: 1.8rem;
+  color: #070002a1;
+  font-family: "RocknRoll One", sans-serif;
+}
+
+.get-started {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.get-started p {
+  color: #070002b4;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.get-started a {
+  color: rgb(202, 197, 197);
+  text-decoration: underline;
+}
+.get-started a:hover,
+.get-started a:active {
+  color: #070002;
+}
+.get-started button {
+  margin: 5px 0;
+  padding: 10px;
+  width: 12rem;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  background: none;
+  border: 2px solid #fff;
+}
+.get-started button:hover {
+  background: #fff;
+  color: #753a88;
+}
+.get-started button:active {
+  background: #fff;
+  color: #753a88;
+  transform: translate(1px, 2px);
+}
+.signinStudent-container-right {
+  padding: 5rem 0;
+  height: 70vh;
+  background: rgba(255, 255, 255, 0.856);
+}
+.signinStudent-container-right p {
+  margin: 0 0 2rem 1rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: "RocknRoll One", sans-serif;
+}
+.signinStudent-container-right form {
+  padding: 0 1rem;
+}
+.signinStudent-container-right label {
+  display: block;
+  margin: 1.5rem 0 0;
+  padding: 0 3px;
+  color: #130620;
+  font-weight: 600;
+  font-style: italic;
+}
+.signinStudent-container-right input {
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #753a88;
+  width: 80%;
+  padding: 0.5rem 0.6rem 0;
+}
+
+.signinStudent-container-right input:focus {
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #753a88;
+  border-left: 2px solid #753a88;
+}
+
+.signinStudent-container-right button {
+  color: #fff;
+  font-weight: 900;
+  display: block;
+  margin: 10px;
+  padding: 1rem;
+  width: 80%;
+  border: 1px solid #cc2b5e;
+  border-radius: 2%;
+  background: #cc2b5e;
+  background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
+  background: linear-gradient(to right, #753a88, #cc2b5e);
+  outline: none;
+}
+.signup-hide {
+  display: none;
+}
+
+.pass-err {
+  padding: 5px;
+  font-size: 8px !important;
+  color: red;
+}
+
+@media (max-width: 756px) {
+  .signinStudent-container {
+    height: 100vh;
+    width: 100vw;
+  }
+  .signinStudent-container-left {
+    display: none;
+  }
+  .signinStudent-container-right {
+    /* padding: 40px 0; */
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.856);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signinStudent-container-right p {
+    margin: 0;
+  }
+  .signinStudent-container-right label {
+    margin: 1rem 0 0;
+  }
+  .signinStudent-container-right input {
+    width: 14rem;
+    padding: 0.2rem 0.3rem 0;
+  }
+
+  .signinStudent-container-right button {
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    margin: 8px;
+    padding: 0.8rem;
+    width: 13rem;
+  }
+  .signup-hide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .signup-hide .signup-hide-icon {
+    font-size: 2rem;
+    margin: 2px;
+  }
+  .signup-hide a {
+    color: #070002;
+    text-decoration: underline;
+  }
+  .signup-hide a:hover,
+  .signup-hide a:active {
+    color: #ee5581;
+  }
+}
+
+/* login */
+
+.student-login {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #c9d6ff;
+  background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff);
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-login-container {
+  background: #fff;
+  box-shadow: 0px 0px 5px 5px #888888;
+  height: 600px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .student-login-container {
+    height: 100vh;
+    width: 100vw;
+    border: none;
+    border-radius: 0;
+  }
+}
+
+.student-login-container h1 {
+  font-size: 1.8rem;
+  color: #070002a1;
+  font-family: "RocknRoll One", sans-serif;
+}
+
+.student-login-container form input {
+  padding: 15px;
+  background-color: #88888831;
+  outline: none;
+  border: none;
+  border-radius: 2%;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.student-login-container form button {
+  color: #fff;
+  font-weight: 900;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #cc2b5e;
+  border-radius: 2%;
+  background: #cc2b5e;
+  background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
+  background: linear-gradient(to right, #753a88, #cc2b5e);
+  outline: none;
+}
+
+.student-login-container form button:active {
+  transform: translate(1px, 1px);
+}
+
+.student-login-icons {
+  margin: 10px 0;
+  padding: 5px 0;
+}
+.student-login-icons p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: rgb(10, 4, 4);
+}
+
+.student-login-icons .login-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.student-login-icons .login-icons button {
+  text-align: center;
+  font-size: 10px;
+  margin: 5px;
+  color: #130620;
+  font-weight: 900;
+  display: block;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 2%;
+  background: #fff;
+  outline: none;
+  box-shadow: 0px 0px 3px 1px #888888;
+}
+
+.student-login-icons .login-icons .signin-hide-icon {
+  font-size: 14px;
+  margin-top: -2px;
+  color: #551969;
+}
+
+.student-login-forget {
+  display: flex;
+  flex-direction: column;
+}
+
+.student-login-forget a {
+  color: #130620;
+  font-size: 12px;
+}
+.student-login-forget a:hover,
+.student-login-forget a:active {
+  color: #cc2b5e;
+}
+
+.student-login-forget p {
+  margin-top: 30px;
+  font-size: 13px;
+}
+.student-login-forget p a {
+  color: #cc2b5e;
+}

@@ -1,0 +1,76 @@
+.tutor-dashboard {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.dash-nav {
+  padding: 0;
+  margin: 0;
+  background: #070706d2;
+}
+
+.tutor-dash-container-left {
+  padding: 10px 5px;
+  height: 88vh;
+  border-right: 2px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .tutor-dash-container-left {
+    height: 100%;
+  }
+}
+
+.tutor-dash-container-left h1 {
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: "RocknRoll One", sans-serif;
+  color: rgb(4, 26, 44);
+}
+
+.tutor-dash-container-left .profile-img img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid #070706d2;
+}
+
+/* img upload */
+
+.student-profile-img-upload {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.student-profile-img-upload img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 1px solid saddlebrown;
+}
+.student-profile-img-upload {
+  position: relative;
+}
+
+.student-profile-img-upload p {
+  position: absolute;
+  top: 75%;
+  font-size: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: brown;
+  font-weight: 800;
+}
+
+#imageUpload {
+  display: none;
+}

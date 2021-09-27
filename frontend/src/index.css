@@ -1,0 +1,139 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "RocknRoll One";
+  src: url(./assets/font/RocknRollOne-Regular.ttf);
+}
+
+.spinner-logout {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group label:first-child {
+  font-weight: 700;
+}
+
+.verified-tutor-heading {
+  text-align: center;
+  color: rgb(3, 70, 78);
+  font-family: "RocknRoll One", sans-serif;
+}
+.verified-tutor-subtitle {
+  text-align: center;
+  color: blueviolet;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.verified-tutor-image-upload-heading {
+  margin-top: 50px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
+  color: cadetblue;
+  font-weight: bold;
+}
+
+.hiring-card {
+  height: 150px;
+  border: 1px solid firebrick;
+  background-color: azure;
+}
+
+/* status */
+.tutor-status-busy {
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.tutor-status-free {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 0 10px;
+}
+
+.chat-sendto-left {
+  margin: 0 30px;
+  padding: 0 30px;
+  text-align: end;
+  list-style: none;
+}
+.chat-sendto-right {
+  margin: 0 30px;
+  padding: 0 30px;
+  text-align: start;
+  list-style: none;
+}
+
+.normal-header {
+  height: 300px;
+  overflow: hidden;
+  background: linear-gradient(
+      to bottom,
+      rgba(10, 8, 9, 0.493),
+      rgba(26, 24, 26, 0.87)
+    ),
+    url("../src/assets/image/header-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.normal-header h1 {
+  text-align: center;
+  color: aliceblue;
+  font-weight: 600;
+  padding: 10px 0;
+  font-family: "RocknRoll One", sans-serif;
+}
+
+.normal-page-main-content {
+  padding: 20px 0;
+}
+
+.normal-page-main-content h1 {
+  text-align: center;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+.normal-page-main-content hr {
+  text-align: center;
+  width: 30px;
+  height: 10px;
+}
+
+.privacy-page-main h3 {
+  font-family: "RocknRoll One", sans-serif;
+  /* font-size: 24px; */
+  text-transform: capitalize;
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "level": "School",
+    "value": "school"
+  },
+  {
+    "id": "2",
+    "level": "Diploma",
+    "value": "diploma"
+  },
+  {
+    "id": "3",
+    "level": "Bachelor",
+    "value": "bachelor"
+  }
+]

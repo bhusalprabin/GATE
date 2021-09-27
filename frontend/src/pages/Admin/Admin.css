@@ -1,0 +1,73 @@
+.admin-topBar {
+  padding: 0 20px;
+  background-color: darkcyan;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid cadetblue;
+}
+
+.admin-topBar-img img {
+  height: 40px;
+}
+
+.admin-topBar-txt button {
+  padding: 10px 20px;
+  outline: none;
+  background-color: aquamarine;
+  color: brown;
+  font-weight: 600;
+  border: 1px solid firebrick;
+  border-radius: 5%;
+}
+
+.admin-main {
+  min-height: 92vh;
+}
+
+.admin-main .admin-main-left {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.admin-main-left ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+  /* flex-grow: 1; */
+  transition: all 1s ease-in-out;
+}
+
+.admin-main-left ul li {
+  flex-grow: 1;
+  padding: 10px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+
+  font-size: 20px;
+  text-align: center;
+}
+
+.admin-main-left ul li span {
+  font-size: 25px;
+  padding: 0 5px;
+}
+
+.admin-main-left ul .active-nav {
+  background-color: black;
+  color: white;
+  transition: all 1s ease-in;
+}
+
+.admin-right {
+  border-left: 1px solid cadetblue;
+  padding: 0 !important;
+  margin: 0;
+}

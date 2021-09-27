@@ -1,0 +1,20 @@
+.findAtutor {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.findAtutor h1 {
+  text-align: center;
+}
+
+.findATutor-img {
+  height: 18rem;
+  width: auto;
+}
+
+.findAtutor-form {
+  padding: 2rem;
+}

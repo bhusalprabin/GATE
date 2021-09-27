@@ -1,0 +1,141 @@
+.tutor-profile-container {
+  height: 40vh;
+  overflow: hidden;
+  background: linear-gradient(
+      to bottom,
+      rgba(10, 8, 9, 0.493),
+      rgba(26, 24, 26, 0.87)
+    ),
+    url("../../assets/image/header-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.tutor-profile-container h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  font-family: "RocknRoll One", sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tutor-profile-content {
+  margin: 30px 3rem;
+}
+
+.tutor-profile-img-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.tutor-profile-img {
+  height: 300px;
+  width: 300px;
+  position: relative;
+}
+
+.tutor-profile-img p {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 5px;
+  background-color: rgba(95, 17, 100, 0.795);
+  padding: 8px;
+  color: #fff;
+  font-weight: 900;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.profile-page-img {
+  height: 100%;
+  width: 300px;
+  border: 2px solid rgb(94, 38, 57);
+}
+
+.tutor-profile-content {
+  position: relative;
+  text-align: justify;
+}
+
+.profile-page-price {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  background-color: rgba(24, 15, 32, 0.795);
+  padding: 8px;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.prifile-page-course button {
+  outline: none;
+  padding: 10px;
+  background-color: cadetblue;
+  border: none;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.profile-page-hire button {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(233, 159, 70);
+  font-family: "RocknRoll One", sans-serif;
+}
+
+.tutor-profile-desc h5 {
+  color: grey;
+  font-weight: 600;
+}
+
+.tutor-profile-desc h1 {
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgba(44, 5, 5, 0.89);
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 775px) {
+  .tutor-profile-content {
+    margin: 10px 0;
+  }
+  .tutor-profile-img-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0 !important;
+  }
+  .tutor-profile-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .tutor-profile-img img {
+    height: 300px;
+    text-align: center;
+  }
+
+  .tutor-profile-img p {
+    position: absolute;
+    top: 250px;
+    right: 40px;
+    padding: 5px;
+    background-color: rgba(95, 17, 100, 0.795);
+    padding: 8px;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+}

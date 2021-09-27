@@ -1,0 +1,6 @@
+[
+  { "subjectName": "Math", "id": 1, "value": "math" },
+  { "subjectName": "Science", "id": 2, "value": "science" },
+  { "subjectName": "Nepali", "id": 3, "value": "nepali" },
+  { "subjectName": "Computer", "id": 4, "value": "computer" }
+]
